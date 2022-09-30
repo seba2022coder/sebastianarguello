@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(../img/backgrounds/night.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    overflow:auto;
+      
+}
+
+h1{
+    color:#F29F05;
+    font-family:'Roboto', sans-serif;
+    font-size: 60px;
+    
+}
+
+p{
+	color:#ffffff;
+	line-height: 2rem;
+	font-size: 1.6rem;
+}
+
+.text-center{
+            text-align: center;
+        }
+nav{
+    position: static;
+     top: 0;
+     left: 0;
+     width: 100%;
+     /*padding*/
+     padding: 4px 30px;
+  
+    }
+        
+   nav ul{
+          /*display*/
+       display: inline-block;
+    
+    }
+        
+    nav ul li{
+      list-style: none;
+              /*display*/
+      display: inline-block;
+              /*margin*/
+      margin-right: 4px;
+       
+     }
+        
+    nav ul li a{
+      font-size: 1.8rem;
+      text-decoration: none;
+      color: #5B5959;
+            }
+        
+            /*hover*/
+     nav ul li a:hover{
+       color:rgb(236, 176, 9);
+       font-weight: 600;
+     }
+      
+      .flexFooter{
+        display: flex;
+        justify-content: space-around;
+        }
+        /* vista mobile */
+@media only screen and (max-width: 767px){
+	.footerFlex{display: flex;flex-direction: column;
+  }
